@@ -103,3 +103,9 @@ $ hexo deploy
 ```
 
 大功告成~
+
+>更新github代码覆盖到本地:
+> $ git fetch origin
+> $ git reset --hard origin/master
+
+
