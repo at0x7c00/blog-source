@@ -47,6 +47,7 @@ $ git clone git@github.com:<your git userid>@<your git projectid>
 $ npm install hexo --save
 ```
 
+>如果hexo-deploy-git没有安装，还需要手动执行npm install hexo-deploy-git --save 来安装。
 
 安装完成之后的目录结构大致如下：
 
