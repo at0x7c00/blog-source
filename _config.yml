@@ -8,7 +8,7 @@ subtitle:
 description: 芝兰生于幽谷，不以无人而不芳
 author: 文/胡桥
 language: zh-Hans
-timezone: CN
+timezone: 
 avatar: /images/avatar.jpg
 
 
@@ -94,6 +94,6 @@ leancloud_visitors:
   app_id: u9E7f8Qs3QDpEi3NISXA90xF-gzGzoHsz
   app_key: 08RUiz9WdbBMeRf2dc5oYOgR
 
-display_updated: true
+display_updated: false
 
   
