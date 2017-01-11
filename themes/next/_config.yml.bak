@@ -222,7 +222,7 @@ post_meta:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /images/wechat-qcode.jpg
+  qcode: /images/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
 
