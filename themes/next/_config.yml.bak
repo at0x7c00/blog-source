@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "ºúÇÅµÄ¸öÈË²©¿Í"
+keywords: "èƒ¡æ¡¥çš„ä¸ªäººåšå®¢"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -127,13 +127,13 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
   GitHub: https://github.com/xooxle
   Twitter: https://twitter.com/imhuqiao
-  Î¢²©: http://weibo.com/imhuqiao
-  Öªºõ: https://www.zhihu.com/people/hu-qiao-87/
-  ¶¹°ê: https://www.douban.com/people/zoozle/
+  å¾®åš: http://weibo.com/imhuqiao
+  çŸ¥ä¹: https://www.zhihu.com/people/hu-qiao-87/
+  è±†ç“£: https://www.douban.com/people/zoozle/
 
 
 # Social Links Icons
@@ -147,9 +147,9 @@ social_icons:
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Î¢²©: weibo
-  Öªºõ: arrow-right
-  ¶¹°ê: leaf
+  å¾®åš: weibo
+  çŸ¥ä¹: arrow-right
+  è±†ç“£: leaf
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -222,8 +222,8 @@ post_meta:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: /images/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: »¶Ó­ÄúÉ¨Ò»É¨ÉÏÃæµÄÎ¢ĞÅ¹«ÖÚºÅ£¬¶©ÔÄÎÒµÄ²©¿Í£¡
+  qcode: /images/wechat-qcode.png
+  description: æ¬¢è¿æ‚¨æ‰«ä¸€æ‰«ä¸Šé¢çš„å¾®ä¿¡å…¬ä¼—å·ï¼Œè®¢é˜…æˆ‘çš„åšå®¢ï¼
 
 
 
