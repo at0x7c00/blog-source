@@ -11,7 +11,7 @@ tags:
 
 # 安装MySQL
 
-在官网[http://dev.mysql.com/downloads/mysql#downloads](http://dev.mysql.com/downloads/mysql#downloads)选择合适您操作系统的版本进行下载，这里以选择Linux Generic为例。
+在官网[http://dev.mysql.com/downloads/mysql#downloads](http://dev.mysql.com/downloads/mysql#downloads)选择合适您操作系统的版本进行下载， 这里以选择Linux Generic为例。
 
 >MySQL官网上只能下载到最新的版本，想要下载以前的版本找起来非常费劲。你可以从这里来下载:
 >[http://download.softagency.net/MySQL/Downloads/MySQL-5.5/](http://download.softagency.net/MySQL/Downloads/MySQL-5.5/)
@@ -31,7 +31,6 @@ drwxr-xr-x 13 root root      4096 Jan  3 20:09 mysql-5.5.53-linux2.6-x86_64
 执行命令：cp mysql-5.5.45-linux2.6-x86_64 /usr/local/mysql -r
 
 添加mysql用户和mysql用户组:
-
 ```bash
 groupadd mysql
 useradd -r -g mysql mysql
