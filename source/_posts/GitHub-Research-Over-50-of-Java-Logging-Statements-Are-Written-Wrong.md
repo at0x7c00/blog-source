@@ -77,8 +77,8 @@ Java项目日志中平均包含变量个数
 
 
 # 我们怎么实现的这些统计?
-As we mentioned, to get this data we first had to filter out irrelevant Java repositories and focus on those which had over 100 logging statements, which left us with 1,463 repos that made the cut.
-Then, we added some regex magic and pulled out all of the log lines:
+如上文提到，为了得到这些数据，我们第一步是过滤到没用的Java项目，关注那些超过100条日志语句的项目。最后得到1463个项目。
+然后通过正则表达式取出所有日志行。
 
 ```bash
 SELECT *
@@ -88,8 +88,7 @@ OR REGEXP_MATCH(line, r'.*((Level|Priority)[.](TRACE|TRACE_INT|X_TRACE_INT|INFO|
 OR REGEXP_MATCH(line, r'.*((Level|Priority)[.](FATAL|FATAL_INT|SEVERE|SEVERE_INT|CONFIG|CONFIG_INT|FINE|FINE_INT|FINER|FINER_INT|FINEST|FINEST_INT|ALL|OFF)).*')
 
 ```
-
-Now that we had the data, we started slicing it up. First we filtered out the number of variables per log level:
+现在我们拿到了数据，现在开始进行切分。首先，过滤出每一个日志级别包含的变量数量。
 ```bash
 SELECT sample_repo_name
       ,log_level
@@ -115,8 +114,7 @@ SELECT sample_repo_name
          ,log_level
          ,total_params_tier
 ```
-
-Then calculated the average use of each tier. That’s how we got the average percent of total repositories statements.
+然后计算每个级别的平均值。如下显示了计算所有仓库语句平均半分比的方法：
 ```bash
 SELECT total_params_tier
       ,AVG(logging_statements / total_repo_logging_statements) percent_out_of_total_repo_statements
@@ -151,11 +149,10 @@ SELECT total_params_tier
  ORDER BY 1,2
 ```
 
-You can check out the calculations in our [数据文件](http://384uqqh5pka2ma24ild282mv.wpengine.netdna-cdn.com/wp-content/uploads/2017/02/Logging-Scrapes-from-GitHub.xlsx).
+你可以从我们的[原始数据文件](http://384uqqh5pka2ma24ild282mv.wpengine.netdna-cdn.com/wp-content/uploads/2017/02/Logging-Scrapes-from-GitHub.xlsx)看看计算过程.
 
 # 反思
-
-We all use log files, but it seems that most of us take them for granted. With the numerous log management tools out there we forget to take control of our own code – and make it meaningful for us to understand, debug and fix.
+我们都使用日志文件，但好像大多数都认为这是理所当然（take them for granted）的。大量的日志管理工具让我们忘了去优化自己的代码，让代码可以易读，方便我们理解、调试和修复。
 
 
 > 原文：[https://www.javacodegeeks.com/2017/02/github-research-50-java-logging-statements-written-wrong.html](https://www.javacodegeeks.com/2017/02/github-research-50-java-logging-statements-written-wrong.html)
