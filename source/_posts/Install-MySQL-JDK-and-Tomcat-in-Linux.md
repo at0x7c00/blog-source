@@ -102,7 +102,7 @@ drwxr-xr-x  2 root  root   4096 Jan  3 20:11 support-files
 
 执行命令把启动脚本放到开机初始化目录：
 ```bash
-p support-files/mysql.server /etc/init.d/mysql
+cp support-files/mysql.server /etc/init.d/mysql
 ```
 
 启动之前，需要修改mysql的编码为utf8：
@@ -286,3 +286,5 @@ chkconfig –level 2345 tomcat on
 JAVA_OPTS="-Xms256m -Xmx512m -Xss1024K -XX:PermSize=128m -XX:MaxPermSize=256m" 
 cygwin=false
 ```
+
+> Tomcat8容易遇到启动缓慢的问题，参考[Tomcat启动缓慢问题解决](http://nobodyiam.com/2016/06/07/tomcat-startup-slow/)。
