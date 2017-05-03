@@ -1,1 +1,80 @@
 // Custom styles.
+#local-search-input{
+   display:block;
+   margin:10px;
+   padding:3px;
+   width:200px;
+   border:1px solid #999;
+   font-size:16px;
+}
+
+#search-form{
+   position:relative;
+}
+#search-form>.fa.fa-times{
+   position:absolute;
+   top:8px;
+   right:25px;
+}
+
+
+/*搜索结果区*/
+#local-search-result {
+  margin: auto;
+  font-size: 0.9em;
+  text-align: left;
+  word-break: break-all;
+}
+
+#local-search-result ul.search-result-list li:hover {
+  font-weight: normal;
+}
+
+/*单条搜索结果*/
+#local-search-result li {
+  margin: 0.5em auto;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+/*匹配的标题*/
+#local-search-result a.search-result-title {
+  line-height: 1.2;
+  font-weight: bold;
+  color: #555;
+}
+
+/*搜索预览段落*/
+#local-search-result p.search-result {
+  margin: 0.4em auto;
+  line-height: 1.8em;
+  max-height: 5em;
+  overflow: hidden;
+  font-size: 0.8em;
+  text-align: justify;
+  color: #808080;
+}
+
+/*匹配的关键词*/
+#local-search-result em.search-keyword {
+  color: #c64747;
+  border-bottom: 1px dashed #c64747;
+}
+
+/*无匹配搜索结果时显示*/
+p.no-result {
+  display: none;
+  margin: 2em 0 2em 6%;
+  padding-bottom: 0.5em;
+  text-align: left;
+  color: #808080;
+  font-family: font-serif serif;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+.menu .menu-item .search-result-list a{
+   padding:5px 0px;
+}
+
+.search-keyword{
+  font-weight:normal;
+}

@@ -174,7 +174,7 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
+  position: right
   #position: right
 
   # Sidebar Display, available value:
@@ -453,6 +453,11 @@ vendors:
   # https://www.algolia.com
   algolia_instant_js:
   algolia_instant_css:
+
+algolia:
+  applicationID: 1TG9IEUD92
+  apiKey: 4c6da9bdd6f077487ff1a27d86aee181
+  indexName: blog.huqiao.me
 
 
 

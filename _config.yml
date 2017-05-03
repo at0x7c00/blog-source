@@ -86,7 +86,7 @@ deploy:
   branch: master
  
 duoshuo_shortname: huqiao
-baidu_analytics: 8ea5eb04bd47ea63f54907e6587f6e79
+baidu_analytics: b13ef012c32ee43fe12c462e5903105e
 
 
 leancloud_visitors:
@@ -95,5 +95,11 @@ leancloud_visitors:
   app_key: 08RUiz9WdbBMeRf2dc5oYOgR
 
 display_updated: false
+
+
+search:
+  path: search.xml
+  field: all
+
 
   
