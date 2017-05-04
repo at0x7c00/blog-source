@@ -4,7 +4,7 @@
 
 # Site
 title: HuQiao's Blog
-subtitle: 
+subtitle: 读书，健身，享受生活
 description: 芝兰生于幽谷，不以无人而不芳
 author: 文/胡桥
 language: zh-Hans
@@ -85,7 +85,7 @@ deploy:
   repo: git@github.com:xooxle/blog.git
   branch: master
  
-duoshuo_shortname: huqiao
+#duoshuo_shortname: huqiao
 baidu_analytics: b13ef012c32ee43fe12c462e5903105e
 
 

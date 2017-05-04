@@ -4,7 +4,7 @@ date: 2017-01-05 15:49:13
 tags:
 - MySQL
 - corntab
-categories: 技术浮云
+categories: 数据库
 ---
 
 选择一个文件夹，创建一个需要定时执行的脚步文件。

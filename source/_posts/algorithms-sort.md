@@ -4,7 +4,7 @@ date: 2017-02-23
 tags: 
 - 算法
 - 排序
-categories: 技术浮云
+categories: 算法
 ---
 
 

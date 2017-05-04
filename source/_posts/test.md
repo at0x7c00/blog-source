@@ -2,7 +2,7 @@
 title: JavaScript的自执行方法和模块模式
 date: 2016/12/22 20:46:25
 tags: Javascript
-categories: 技术浮云
+categories: Javascript
 ---
 
 

@@ -4,7 +4,7 @@ date: 2017-03-02 13:52:18
 tags:
 - Gradle
 - 持续集成
-categories: 技术浮云
+categories: 运维
 ---
 # 安装Gradle
 参考这里:[https://gradle.org/install](https://gradle.org/install)。

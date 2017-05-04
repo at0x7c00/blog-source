@@ -1,10 +1,10 @@
 ---
 title: 成功移居GitHub Pages
 date: 2016-12-01
-categories:	joys
+categories:	折腾
 tags: 
 - GitHub
-- 折腾
+- hexo
 ---
 # GitHub+Hexo+Next
 借助于这边文章：[《GitHub+Hexo+Next搭建免费独立个人博客》](http://www.jianshu.com/p/61987cec0fad)，终于在GitHub Pages中创建了自己的博客系统。生命在于折腾真的太对了。通过在这次折腾，发现了很多好玩的东西：

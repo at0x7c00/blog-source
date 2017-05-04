@@ -1,7 +1,7 @@
 ---
 title: 'Install MySQL,JDK and Tomcat in Linux'
 date: 2017-01-04 17:13:23
-categories: 技术浮云
+categories: 运维
 tags: 
 - MySQL
 - Linux
