@@ -1,5 +1,5 @@
 ---
-title: ognl.OgnlException: target is null for setProperty(null, "description", [Ljava.l
+title: ognl.OgnlException target is null for setProperty(null, "description", [Ljava.l
 date: 2011-04-16 11:28
 categories: 
 - Struts

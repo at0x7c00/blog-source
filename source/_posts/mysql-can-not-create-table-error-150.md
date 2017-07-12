@@ -1,5 +1,5 @@
 ---
-title:  MySQL创建外键时报Can't create table (errno: 150)错误解决办法
+title: MySQL创建外键时报Can't create table errno 150 错误解决办法
 date: 2016-05-17 02:30
 categories: 数据库
 tags: MySQL
