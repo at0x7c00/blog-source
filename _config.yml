@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HuQiao's Blog
-subtitle: 坚持好习惯，为未来积攒力量
-description: 芝兰生于幽谷，不以无人而不芳
-author: 文/胡桥
+title: '0x7c00'
+subtitle: A low level programmer
+description: ..
+author: 'by 0x7c00'
 language: zh-Hans
 timezone: 
 avatar: /images/avatar.png
@@ -82,7 +82,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:xooxle/blog.git
+  repo: git@github.com:at0x7c00/blog.git
   branch: master
  
 #duoshuo_shortname: huqiao

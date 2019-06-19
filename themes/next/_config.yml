@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "胡桥的个人博客"
+keywords: "0x7c00"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "胡桥的个人博客"
 rss:
 
 # Specify the date when the site was setup
-since: 2011
+since: 2010
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -129,11 +129,11 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   #LinkLabel: Link
-  GitHub: https://github.com/xooxle
-  Twitter: https://twitter.com/imhuqiao
-  微博: http://weibo.com/imhuqiao
-  知乎: https://www.zhihu.com/people/hu-qiao-87/
-  豆瓣: https://www.douban.com/people/zoozle/
+  #GitHub: https://github.com/xooxle
+  #Twitter: https://twitter.com/imhuqiao
+  #微博: http://weibo.com/imhuqiao
+  #知乎: https://www.zhihu.com/people/hu-qiao-87/
+  #豆瓣: https://www.douban.com/people/zoozle/
 
 
 # Social Links Icons
